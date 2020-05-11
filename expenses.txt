@@ -1,0 +1,19 @@
+// lines starts with double-slashes are comments
+rent=6500
+electricity=1400
+computerClass=4000
+collegeLoan=2019
+investStocks=3200
+phoneBill=913
+bikeMaintainence=500
+eDating=1000
+bikeGas=750
+youtubePremium=230
+medium=150
+newYearEnvelopMoney=2500
+mothersDayPresent=5000
+// redLightPenalty=2400
+3MonthInsuranceFee=2300
+brotherLend=1500
+// re3Remake=2605
+// friendDinner=500

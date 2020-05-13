@@ -2,12 +2,14 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const exphbs = require('express-handlebars');
 const helpers = require('./helpers');
+const path = require('path');
 
 const app = express();
 
 // set middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, '/public')));
 
 // set view engine
 app.engine('handlebars', exphbs({
